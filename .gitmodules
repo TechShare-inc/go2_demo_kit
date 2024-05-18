@@ -1,0 +1,13 @@
+[submodule "1.2/apritlag_cpp"]
+	path = 1.2/apritlag_cpp
+	url = https://github.com/TechShare-inc/simple_apriltag
+[submodule "unitree_ros2"]
+	path = unitree_ros2
+	url = https://github.com/unitreerobotics/unitree_ros2.git
+[submodule "detect_apriltag_ws/src/apritlag_service"]
+	path = detect_apriltag_ws/src/apritlag_service
+	url = https://github.com/TechShare-inc/simple_apriltag
+	branch = foxy_service
+[submodule "detect_apriltag_ws/src/go2_demo"]
+	path = detect_apriltag_ws/src/go2_demo
+	url = https://github.com/TechShare-inc/go2_unitree_ros2
