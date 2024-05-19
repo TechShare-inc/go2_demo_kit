@@ -6,6 +6,7 @@ git clone https://github.com/eclipse-cyclonedds/cyclonedds -b releases/0.10.x
 cd ..
 sudo apt update
 sudo apt install ros-foxy-rmw-cyclonedds-cpp
+sudo apt install ros-foxy-rosidl-generator-dds-idl
 # sudo apt install ros-foxy-performance-test-fixture
 colcon build --packages-select cyclonedds
 source /opt/ros/foxy/setup.bash
